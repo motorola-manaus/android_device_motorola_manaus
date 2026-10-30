@@ -6,7 +6,7 @@ This repository contains the device-specific configuration and makefiles for bui
 
 | Feature | Details |
 | :--- | :--- |
-| **SoC** | MediaTek Dimensity 7020 (MT6879) |
+| **SoC** | MediaTek Dimensity 7030 (MT6879) |
 | **CPU** | 2x 2.2 GHz Cortex-A78 & 6x 2.0 GHz Cortex-A55 |
 | **GPU** | IMG BXM-8-256 |
 | **Architecture** | ARM64 (64-bit only) |
@@ -31,6 +31,7 @@ This device tree requires the following companion repositories:
 * [Common Vendor Blobs](https://github.com/motorola-manaus/proprietary_vendor_motorola_mt6879-common): `vendor/motorola/mt6879-common`
 * [MediaTek SEPolicy](https://github.com/motorola-manaus/device_mediatek_sepolicy_vndr): `device/mediatek/sepolicy_vndr`
 * [MediaTek Hardware](https://github.com/motorola-manaus/hardware_mediatek): `hardware/mediatek`
+* [Dolby Atmos HAL](https://github.com/motorola-manaus/hardware_dolby): `hardware/dolby`
 
 ## How to Build
 
